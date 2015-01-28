@@ -16,6 +16,7 @@ Welcome to the reference guide to rampage-php - an addon library to `ZendFramewo
     reference/di
     reference/resources
     reference/theming
+    reference/requirejs
     reference/filesystem
     reference/convenience-classes
     components
