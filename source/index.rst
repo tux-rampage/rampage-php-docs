@@ -19,7 +19,7 @@ Welcome to the reference guide to rampage-php - an addon library to `ZendFramewo
     reference/filesystem
     reference/convenience-classes
     components
-    appendices
+    upgrading
     glossary
 
 

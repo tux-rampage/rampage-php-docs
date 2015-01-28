@@ -60,8 +60,7 @@ One module may define multiple themes if needed.
     i.e. The fallbacks of a fallback theme are not visited.
 
 
-.. _theming.dirlayout:
-
+.. _theming.usage:
 
 Using The Theme
 ---------------
@@ -89,6 +88,8 @@ If no theme is set explicitly and no default theme is defined, the current theme
         ]
     ];
 
+
+.. _theming.dirlayout:
 
 Theme Directory Layout
 ----------------------
