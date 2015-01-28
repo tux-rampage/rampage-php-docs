@@ -11,6 +11,7 @@ Backward incompatible changes
 * :ref:`migration_1.2.bcb.url`
 * :ref:`migration_1.2.bcb.urlhelpers`
 * :ref:`migration_1.2.bcb.ui`
+* :ref:`migration_1.2.bcb.assets`
 
 
 .. _migration_1.2.bcb.url:
@@ -58,3 +59,9 @@ This component is removed from the main package.
 It will be merged into a base ui implementation ``rampage-php/ui``.
 
 
+.. _migration_1.2.bcb.assets:
+
+Removed deprecated asset path format
+------------------------------------
+
+The deprecated asset path format ``foo.res::relative/path`` has been removed.
