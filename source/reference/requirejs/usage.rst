@@ -1,7 +1,7 @@
-.. requirejs.usage:
+.. _requirejs.usage:
 
-How to add requirejs
-####################
+How to use requirejs
+====================
 
 To enable require.js, you should render the ``requireJs()`` helper on the very bottom of your HTML, before the closing
 ``</body>`` tag **and before** the ``inlinescript()`` rendering.
@@ -35,3 +35,6 @@ After that you can simply add requirejs enabled inline scripts anywhere in your 
             $(document).ready(function() { // do something... });
         }));
     <?php $this->inlinescript()->captureEnd(); ?>
+
+
+See :ref:`requirejs.config` for additional options of the ``requireJs()`` helper.
