@@ -91,6 +91,6 @@ by calling ``setBaseUrl()`` on the ``requireJs()`` helper in your view scripts.
 
 .. note::
 
-    The base url is global and only points to a specific theme. You cannot overwrite single require.js modules
-    in the same way as view scripts. You'll have to define the overwritten module as described
-    in ref:`requirejs.config.template`.
+    The base url is global and only points to a specific theme. **Theme fallbacks will not be visited!**
+    You cannot overwrite single require.js modules in the same way as view scripts or resources. You'll have to define 
+    the overwritten module as described in :ref:`requirejs.config.template`.
